@@ -34,11 +34,27 @@ main{
     position: absolute;
     font-weight: 600;
     color: #999999;
-    top: 57%;
-    left: 20%;
+    top: 57.6%;
+    left: 22%;
     
-    font-size: clamp(8px,4vw,25px);
+    font-size: clamp(6px,4.5vw,25px);
 }
 .pokemon_name{
+    color: #4d4c4c;
     text-transform: capitalize;
+}
+.form{
+    position: absolute;
+    background-color: red;
+    top: 71%;
+    left: 6.9%;
+    width: 37.6%;
+}
+.input_search{
+    width: 100%;
+    padding: 4%;
+    outline: none;
+    border: 2px solid blue;
+    border-radius: 5px;
+    font-weight: 700;
 }
