@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     font-family: 'Oxanium', cursive;
     
 }
@@ -44,17 +44,20 @@ main{
     text-transform: capitalize;
 }
 .form{
-    position: absolute;
-    background-color: red;
-    top: 71%;
-    left: 6.9%;
-    width: 37.6%;
+    position: absolute;  
+    width: 37%;
+    top: 70%;
+    left: 7.5%;
+   
 }
-.input_search{
+input{
     width: 100%;
-    padding: 4%;
-    outline: none;
-    border: 2px solid blue;
-    border-radius: 5px;
-    font-weight: 700;
+  padding: 2px;
+  outline: none;
+  border: 1px solid #333;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #3a444d;
+  font-size: clamp(8px, 5vw, 1rem);
+  box-shadow: -1px 1px 0 #888, -1px 1px 0 #333
 }
