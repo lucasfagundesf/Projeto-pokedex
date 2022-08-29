@@ -24,20 +24,20 @@ main{
 }
 .pokemon_image{
     position: absolute;
-    left: 10%;
+    left: 18%;
     top: 30%;
-    transform: translate(50%, 50%);
-    height: 15%;
+    transform: translate(0%, 30%);
+    height: 18%;
 }
 
 .pokemon_data{
     position: absolute;
     font-weight: 600;
     color: #999999;
-    top: 57.6%;
-    left: 22%;
+    top: 58%;
+    left: 12%;
     
-    font-size: clamp(6px,4.5vw,25px);
+    font-size: clamp(6px,3vw,20px);
 }
 .pokemon_name{
     color: #4d4c4c;
@@ -47,17 +47,74 @@ main{
     position: absolute;  
     width: 37%;
     top: 70%;
-    left: 7.5%;
+    left: 8%;
    
 }
-input{
-    width: 100%;
-  padding: 2px;
+form  input{
+  width: 100%;
+  padding: 4%;
   outline: none;
   border: 1px solid #333;
   border-radius: 5px;
   font-weight: 600;
   color: #3a444d;
-  font-size: clamp(8px, 5vw, 1rem);
+  font-size: clamp(5px,3vw,15px);
   box-shadow: -1px 1px 0 #888, -1px 1px 0 #333
 }
+.buttons{
+    position: absolute;
+    bottom :12.3%;
+    left: 60%;
+    width: 37%;
+    display: flex; 
+    gap: 14px;
+    transform: translate(-2px,-1px);
+}
+.button{
+    width: 38%;  
+    background-color: #003E31;
+    border: 2px solid #003E31;
+    border-radius: 3px;
+    font-size: clamp(5px,3vw,15px);
+    color: #DEDEDC;
+    font-weight: 600;
+    
+}
+.button:active{
+    font-size: 0.9rem;
+}
+.buttonShiny{
+    position: absolute;
+    bottom: 11%;
+    left: 8%;  
+    color:#757575;
+    padding: 2px;
+    background-color: white;
+    border: 1px solid #888;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: clamp(5px,3vw,15px);
+    box-shadow:  -1px 1px 0 #333
+}
+.buttonShiny:active{
+    font-size: 0.9rem;
+   
+}
+.buttonNormal {
+    position: absolute;
+    bottom: 11%;
+    left: 30%;  
+    color:#757575;
+    padding: 2px;
+    background-color: white;
+    border: 1px solid #888;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: clamp(5px,3vw,15px);
+    box-shadow:  -1px 1px 0 #333;
+}
+.buttonNormal:active{
+    font-size: 0.9rem;
+   
+}
+

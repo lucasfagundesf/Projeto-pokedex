@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shiny Pokedex</title>
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
+    <script defer src="js/script.js"></script>
 </head>
 <body>
     <main>
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/132.gif" alt="pokemon" class="pokemon_image">
+        <img src="#" alt="pokemon" class="pokemon_image">
 
         <h1 class="pokemon_data">
-            <span class="pokemon_number">6</span> - 
-            <span class="pokemon_name">ditto</span>
+            <span class="pokemon_number"></span> - 
+            <span class="pokemon_name"></span>
         </h1>
 
         <form class="form">
@@ -25,7 +26,16 @@
             required
             >
         </form>
-
+        
+        <div class="buttons">
+            <button class="button btn-prev">Prev &lt;</button>
+            <button class="button btn-next">Next &gt;</button>
+        </div>
+        <!-- <div class="shiny">
+            <button class="buttonShiny">Shiny</button>
+            <button class="buttonNormal">Normal</button>
+            
+        </div> -->
         <img src="images/pokedex.png" alt="pokedex" class="pokedex">
     </main>
 </body>
